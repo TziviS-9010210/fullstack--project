@@ -9,4 +9,8 @@ const {title} = req.body
 const posts = await Posts.create({title:title});
 res.json(posts)
 })
+
+
+console.log("Tzivi")
+
 module.exports = router
