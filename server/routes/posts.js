@@ -10,6 +10,7 @@ const posts = await Posts.create({title:title});
 res.json(posts)
 })
 
+console.log("Tzivi")
 
 console.log("Tzivi")
 console.log("make changes")
