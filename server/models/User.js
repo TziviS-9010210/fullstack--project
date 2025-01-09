@@ -11,6 +11,9 @@ username:{
 },
 email:{
     type:mongoose.Schema.Types.String,
+
+    type:mongoose.Schema.Types.String,
+
     required:true, 
 },
 address:{
